@@ -1,0 +1,27 @@
+{
+  "name": "freeswitch-mcp-node",
+  "version": "1.0.0",
+  "description": "FreeSWITCH MCP Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "type": "module",
+  "dependencies": {
+    "@hyperdrive-eng/mcp-nodejs-debugger": "^0.2.2",
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "jsdom": "^24.0.0",
+    "modesl": "^1.2.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
