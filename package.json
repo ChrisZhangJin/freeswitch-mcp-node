@@ -9,13 +9,14 @@
   },
   "type": "module",
   "dependencies": {
-    "@hyperdrive-eng/mcp-nodejs-debugger": "^0.2.2",
     "@modelcontextprotocol/sdk": "^0.6.0",
+    "express": "^5.1.0",
     "jsdom": "^24.0.0",
     "modesl": "^1.2.1",
     "winston": "^3.17.0"
   },
   "devDependencies": {
+    "@hyperdrive-eng/mcp-nodejs-debugger": "^0.2.2",
     "jest": "^29.0.0"
   },
   "directories": {

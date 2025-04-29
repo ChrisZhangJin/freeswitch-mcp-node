@@ -3,7 +3,7 @@ import { makeCallTool, makeCall, showCallsTool, showCalls } from './makeCall.js'
 import { getStatusTool, getStatus  } from './getStatus.js';
 import { modloadTool, modload } from './modload.js';
 import { reloadxmlTool, reloadxml } from './reloadxml.js';
-import { uuidAnswerTool, uuidAnswer, uuidRecordTool, uuidRecord, uuidBreakTool, uuidBreak, uuidParkTool, uuidPark } from './uuidAnswer.js';
+import { uuidAnswerTool, uuidAnswer, uuidRecordTool, uuidRecord, uuidBreakTool, uuidBreak, uuidParkTool, uuidPark } from './uuid.js';
 
 export const tools = [getGatewaysTool, makeCallTool, showCallsTool,getStatusTool, modloadTool, reloadxmlTool, uuidAnswerTool, uuidRecordTool, uuidBreakTool, uuidParkTool];
 
